@@ -4,3 +4,7 @@ body{background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-syste
 main{max-width:720px;margin:0 auto;padding:40px 16px}
 h1{line-height:1.2}a{color:var(--accent)}.muted{color:var(--muted)}
 nav{display:flex;gap:18px;margin-bottom:28px;flex-wrap:wrap}
+.yt{border:1px solid #e5e5e5;border-radius:12px;padding:4px 18px;margin:24px 0}
+.yt h2{display:flex;align-items:center;gap:10px}
+.ytmark{width:34px;height:24px;border-radius:7px;background:#ff0033;position:relative;flex:none}
+.ytmark::after{content:"";position:absolute;left:13px;top:6px;border-left:11px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent}
